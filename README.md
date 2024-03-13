@@ -44,3 +44,7 @@ ros2 launch interbotix_xsarm_moveit xsarm_moveit.launch.py robot_model:=wx250 ha
 ```
 
 To get more details and official tutorial, please visit:[MoveIt 2 Motion Planning Configuration](https://docs.trossenrobotics.com/interbotix_xsarms_docs/ros2_packages/moveit_motion_planning_configuration.html)
+
+# python demos
+python demo 1
+

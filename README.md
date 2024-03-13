@@ -49,5 +49,5 @@ To get more details and official tutorial, please visit:[MoveIt 2 Motion Plannin
 python demo 1
 
 <video width="320" height="240" controls>
-    <source src="[movie.mp4](https://github.com/Team-7-UOM/Manipulator-Control/blob/main/demo1.mp4)" type="video/mp4">
+    <source src="[demo1.mp4](https://github.com/Team-7-UOM/Manipulator-Control/blob/main/demo1.mp4)" type="video/mp4">
 </video>

@@ -1,7 +1,10 @@
 # Manipulator-Control
 This repository contains packages for controlling the manipulators
 
-# interbotic_xsarm_control
+# interbotix_xsrm_gazebo
+This package is uesd to launch gazebo while other packages is used to conrtrol the manipulator in simulation.
+
+# interbotix_xsarm_control
 This package is used for control the manipulator through ros2.
 
 To get started, open up a terminal and run the command below.
@@ -18,3 +21,26 @@ If you want to test out your code first on a simulated arm, make sure to set the
 ```console
 ros2 launch interbotix_xsarm_control xsarm_control.launch.py robot_model:=px150 use_sim:=true
 ```
+
+To get more details and official tutorial, please visit:[Python Demos](https://docs.trossenrobotics.com/interbotix_xsarms_docs/ros2_packages/python_demos.html)
+
+# interbotix_xsarm_moveit
+This package is used for control the manipulator using moveit.
+
+To run this package on the physical robot, connected the manipulator and then enter the command below in a terminal.
+```console
+ros2 launch interbotix_xsarm_moveit xsarm_moveit.launch.py robot_model:=px100 hardware_type:=actual
+```
+
+If running this package on a robot simulated in Gazebo Classic, enter the command below in a terminal.
+```console
+ros2 launch interbotix_xsarm_moveit xsarm_moveit.launch.py robot_model:=rx200 hardware_type:=gz_classic
+```
+
+
+If running this package on a MoveIt generated fake robot, enter the command below in a terminal.
+```console
+ros2 launch interbotix_xsarm_moveit xsarm_moveit.launch.py robot_model:=wx250 hardware_type:=fake
+```
+
+To get more details and official tutorial, please visit:[MoveIt 2 Motion Planning Configuration](https://docs.trossenrobotics.com/interbotix_xsarms_docs/ros2_packages/moveit_motion_planning_configuration.html)

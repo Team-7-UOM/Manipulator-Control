@@ -1,5 +1,5 @@
-# Manipulator-Control
-This repository contains packages for controlling the manipulators
+# Overview
+This repository contains packages for controlling the manipulators with python code. To use the packages, you need to connect to the manipulators and follow the instructions.
 
 # interbotix_xsrm_gazebo
 This package is uesd to launch gazebo while other packages is used to conrtrol the manipulator in simulation.
